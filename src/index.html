@@ -1,0 +1,145 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/silverblade" type="text/css"/> 
+<link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/echotopia" type="text/css"/>
+<link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/funtype" type="text/css"/>
+
+
+<header><h1 id="title" class="text-center" >What kind of music do you like? </h1></header>
+<div><p id="description" class="text-center">
+      Thank you for taking part in my survey
+  </p></div>
+<form id="survey-form">
+  <div class="form-part">
+      <label id="name-label" for="name">Name</label><br>
+      <input class="input-1"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your Name"
+        required
+      />
+     <button id="submit" type="submit">Submit</button>
+    </div>
+  <div class="form-part">
+    <label id="email-label" for="email">Email</label><br>
+     <input class="input-1"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your E-mail"
+            required
+      />
+     <button id="submit" type="submit">Submit</button>
+  </div>
+    
+    <div class="form-part">
+    <label id="number-label" for="age">Age</label><br>
+     <input class="input-1"
+            type="number"
+            name="age"
+            id="number"
+            placeholder="Enter your Age"
+            required
+            min="1" 
+            max="130"
+      />
+       <button id="submit" type="submit">Submit</button>
+  </div>
+  <p class="question">How often do you listen to music?</p>
+  <div>
+  <input type="radio" id="everyday" name="frequency" value="everyday"
+         checked>
+  <label for="everyday">Everyday</label>
+</div>
+
+<div>
+  <input type="radio" id="week" name="frequency" value="week">
+  <label for="week">A few times a week</label>
+</div>
+
+<div>
+  <input type="radio" id="month" name="frequency" value="month">
+  <label for="month">A Few times a month</label>
+</div>
+  
+  <div>
+  <input type="radio" id="year" name="frequency" value="year">
+  <label for="year">A Few times a year</label>
+</div>
+  <div>
+  <input type="radio" id="never" name="frequency" value="never">
+  <label for="never">Never</label>
+</div>
+  
+  <p class="question">What music genre do you like the most?</p>
+  <div id="music-genres">
+    <div>
+      <input type="checkbox" id="rock" name="rock" value="d"
+         >
+      <label for="rock">Rock</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="Pop" name="pop" value="d">
+      <label for="pop">Pop</label>
+    </div>
+    <div>
+      <input type="checkbox" id="classical" name="classical" value="d"
+        checked >
+      <label for="classical">Classical</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="jazz" name="jazz" value="d">
+      <label for="jazz">Jazz</label>
+    </div>
+    <div>
+      <input type="checkbox" id="rap" name="rap" value="d"
+         >
+      <label for="rap">Rap</label>
+   </div>
+
+   <div>
+     <input type="checkbox" id="techno" name="techno" value="d">
+     <label for="techno">Techno</label>
+   </div>
+ </div>
+  <p class="question">What instruments do you like?</p>
+  <div id="music-genres">
+    <div>
+      <input type="checkbox" id="guitar" name="guitar" value="d"
+         >
+      <label for="guitar">Guitar</label>
+    </div>
+    <div>
+      <input type="checkbox" id="drums" name="drums" value="d"
+         >
+      <label for="drums">Drums</label>
+    </div><div>
+      <input type="checkbox" id="trumpet" name="trumpet" value="d"
+         >
+      <label for="trumpet">Trumpet</label>
+    </div><div>
+      <input type="checkbox" id="piano" name="piano" value="d"
+         >
+      <label for="piano">Piano</label>
+    </div><div>
+      <input type="checkbox" id="bagpipes" name="bagpipes" value="d"
+         checked>
+      <label for="barpipes">Bagpipes</label>
+    </div>
+    <br>
+    <label for="rating">Rate my survey :</label>
+      <select id="dropdown" name="rating">
+        <option value="5/5">5/5</option>
+        <option value="4/5">4/5</option>
+        <option value="3/5">3/5</option>
+        <option value="2/5">2/5</option>
+        <option value="1/5">1/5</option>
+      </select>  
+    <br><br>
+  <textarea id="text-area" name="text-area" rows="4" cols="20">
+  Lorem ipsum dolor sit amet,
+  </textarea>
+ 
+</form>
